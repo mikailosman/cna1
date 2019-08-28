@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12AB5EE98787BA9DCF27ABC8 /* Pods_Cenna_v5_5_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F5EBDE0421CC9A745D37255 /* Pods_Cenna_v5_5_.framework */; };
+		98C2404B230F89B100FF7002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C2404A230F89B100FF7002 /* AppDelegate.swift */; };
+		98C2404D230F89B100FF7002 /* LogInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C2404C230F89B100FF7002 /* LogInController.swift */; };
+		98C24052230F89B200FF7002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98C24051230F89B200FF7002 /* Assets.xcassets */; };
+		98C24055230F89B200FF7002 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98C24053230F89B200FF7002 /* LaunchScreen.storyboard */; };
+		98C2405D230F8B9100FF7002 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C2405C230F8B9100FF7002 /* LogInView.swift */; };
+		98C2405F230F8F9E00FF7002 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C2405E230F8F9E00FF7002 /* Extensions.swift */; };
+		98C240682310B88700FF7002 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C240672310B88700FF7002 /* UITextField+Extension.swift */; };
+		98C2406A2310BA1A00FF7002 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C240692310BA1A00FF7002 /* UIColor+Extension.swift */; };
+		98C2406C2310C8B600FF7002 /* UIButton + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C2406B2310C8B600FF7002 /* UIButton + Extension.swift */; };
+		98C2406E2310CA4E00FF7002 /* UIStackView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C2406D2310CA4E00FF7002 /* UIStackView+Extension.swift */; };
+		98C240712310CD0C00FF7002 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C240702310CD0C00FF7002 /* SignUpController.swift */; };
+		98C240732310CD5800FF7002 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C240722310CD5800FF7002 /* SignUpView.swift */; };
+		98C2407523120ABE00FF7002 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 98C2407423120ABD00FF7002 /* GoogleService-Info.plist */; };
+		98C24077231215B200FF7002 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C24076231215B200FF7002 /* MainController.swift */; };
+		98C2407B23121E1A00FF7002 /* AppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C2407A23121E1A00FF7002 /* AppUser.swift */; };
+		98C2407D23157D6700FF7002 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C2407C23157D6700FF7002 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		390496E4A1DDB15DFC7BEFCF /* Pods-Cenna(v5.5).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cenna(v5.5).release.xcconfig"; path = "Target Support Files/Pods-Cenna(v5.5)/Pods-Cenna(v5.5).release.xcconfig"; sourceTree = "<group>"; };
+		7F5EBDE0421CC9A745D37255 /* Pods_Cenna_v5_5_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cenna_v5_5_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98C24047230F89B100FF7002 /* Cenna(v5.5).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cenna(v5.5).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98C2404A230F89B100FF7002 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		98C2404C230F89B100FF7002 /* LogInController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInController.swift; sourceTree = "<group>"; };
+		98C24051230F89B200FF7002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98C24054230F89B200FF7002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		98C24056230F89B200FF7002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98C2405C230F8B9100FF7002 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		98C2405E230F8F9E00FF7002 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		98C240672310B88700FF7002 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		98C240692310BA1A00FF7002 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		98C2406B2310C8B600FF7002 /* UIButton + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton + Extension.swift"; sourceTree = "<group>"; };
+		98C2406D2310CA4E00FF7002 /* UIStackView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extension.swift"; sourceTree = "<group>"; };
+		98C240702310CD0C00FF7002 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		98C240722310CD5800FF7002 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		98C2407423120ABD00FF7002 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		98C24076231215B200FF7002 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		98C2407A23121E1A00FF7002 /* AppUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUser.swift; sourceTree = "<group>"; };
+		98C2407C23157D6700FF7002 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFF1261861A7944CC3EE04B4 /* Pods-Cenna(v5.5).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cenna(v5.5).debug.xcconfig"; path = "Target Support Files/Pods-Cenna(v5.5)/Pods-Cenna(v5.5).debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98C24044230F89B100FF7002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12AB5EE98787BA9DCF27ABC8 /* Pods_Cenna_v5_5_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E7CCF7FA6BB201D9D493637 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFF1261861A7944CC3EE04B4 /* Pods-Cenna(v5.5).debug.xcconfig */,
+				390496E4A1DDB15DFC7BEFCF /* Pods-Cenna(v5.5).release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		98C2403E230F89B100FF7002 = {
+			isa = PBXGroup;
+			children = (
+				98C24049230F89B100FF7002 /* Cenna(v5.5) */,
+				98C24048230F89B100FF7002 /* Products */,
+				8E7CCF7FA6BB201D9D493637 /* Pods */,
+				C20816DA03280FFCDFCADD9D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		98C24048230F89B100FF7002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98C24047230F89B100FF7002 /* Cenna(v5.5).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98C24049230F89B100FF7002 /* Cenna(v5.5) */ = {
+			isa = PBXGroup;
+			children = (
+				98C2407423120ABD00FF7002 /* GoogleService-Info.plist */,
+				98C24056230F89B200FF7002 /* Info.plist */,
+				98C240622310B7AD00FF7002 /* Supporting Files */,
+				98C240642310B80800FF7002 /* Log In */,
+				98C24076231215B200FF7002 /* MainController.swift */,
+				98C2407A23121E1A00FF7002 /* AppUser.swift */,
+				98C2407C23157D6700FF7002 /* ViewController.swift */,
+			);
+			path = "Cenna(v5.5)";
+			sourceTree = "<group>";
+		};
+		98C240622310B7AD00FF7002 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98C2404A230F89B100FF7002 /* AppDelegate.swift */,
+				98C24051230F89B200FF7002 /* Assets.xcassets */,
+				98C24053230F89B200FF7002 /* LaunchScreen.storyboard */,
+				98C240632310B7DE00FF7002 /* Extensions */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		98C240632310B7DE00FF7002 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				98C2405E230F8F9E00FF7002 /* Extensions.swift */,
+				98C240672310B88700FF7002 /* UITextField+Extension.swift */,
+				98C240692310BA1A00FF7002 /* UIColor+Extension.swift */,
+				98C2406B2310C8B600FF7002 /* UIButton + Extension.swift */,
+				98C2406D2310CA4E00FF7002 /* UIStackView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		98C240642310B80800FF7002 /* Log In */ = {
+			isa = PBXGroup;
+			children = (
+				98C2404C230F89B100FF7002 /* LogInController.swift */,
+				98C2405C230F8B9100FF7002 /* LogInView.swift */,
+				98C2406F2310CCE100FF7002 /* Sign Up */,
+			);
+			path = "Log In";
+			sourceTree = "<group>";
+		};
+		98C2406F2310CCE100FF7002 /* Sign Up */ = {
+			isa = PBXGroup;
+			children = (
+				98C240702310CD0C00FF7002 /* SignUpController.swift */,
+				98C240722310CD5800FF7002 /* SignUpView.swift */,
+			);
+			path = "Sign Up";
+			sourceTree = "<group>";
+		};
+		C20816DA03280FFCDFCADD9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F5EBDE0421CC9A745D37255 /* Pods_Cenna_v5_5_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98C24046230F89B100FF7002 /* Cenna(v5.5) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98C24059230F89B200FF7002 /* Build configuration list for PBXNativeTarget "Cenna(v5.5)" */;
+			buildPhases = (
+				95ED6D961CC1F566F500BD2E /* [CP] Check Pods Manifest.lock */,
+				98C24043230F89B100FF7002 /* Sources */,
+				98C24044230F89B100FF7002 /* Frameworks */,
+				98C24045230F89B100FF7002 /* Resources */,
+				80642213116E255A0AEABE05 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cenna(v5.5)";
+			productName = "Cenna(v5.5)";
+			productReference = 98C24047230F89B100FF7002 /* Cenna(v5.5).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98C2403F230F89B100FF7002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = avicenna;
+				TargetAttributes = {
+					98C24046230F89B100FF7002 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 98C24042230F89B100FF7002 /* Build configuration list for PBXProject "Cenna(v5.5)" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98C2403E230F89B100FF7002;
+			productRefGroup = 98C24048230F89B100FF7002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98C24046230F89B100FF7002 /* Cenna(v5.5) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98C24045230F89B100FF7002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98C24055230F89B200FF7002 /* LaunchScreen.storyboard in Resources */,
+				98C24052230F89B200FF7002 /* Assets.xcassets in Resources */,
+				98C2407523120ABE00FF7002 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		80642213116E255A0AEABE05 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cenna(v5.5)/Pods-Cenna(v5.5)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cenna(v5.5)/Pods-Cenna(v5.5)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cenna(v5.5)/Pods-Cenna(v5.5)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95ED6D961CC1F566F500BD2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cenna(v5.5)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98C24043230F89B100FF7002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98C240682310B88700FF7002 /* UITextField+Extension.swift in Sources */,
+				98C2407B23121E1A00FF7002 /* AppUser.swift in Sources */,
+				98C2405D230F8B9100FF7002 /* LogInView.swift in Sources */,
+				98C240712310CD0C00FF7002 /* SignUpController.swift in Sources */,
+				98C2404D230F89B100FF7002 /* LogInController.swift in Sources */,
+				98C2406C2310C8B600FF7002 /* UIButton + Extension.swift in Sources */,
+				98C2407D23157D6700FF7002 /* ViewController.swift in Sources */,
+				98C2406A2310BA1A00FF7002 /* UIColor+Extension.swift in Sources */,
+				98C240732310CD5800FF7002 /* SignUpView.swift in Sources */,
+				98C24077231215B200FF7002 /* MainController.swift in Sources */,
+				98C2406E2310CA4E00FF7002 /* UIStackView+Extension.swift in Sources */,
+				98C2404B230F89B100FF7002 /* AppDelegate.swift in Sources */,
+				98C2405F230F8F9E00FF7002 /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		98C24053230F89B200FF7002 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98C24054230F89B200FF7002 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98C24057230F89B200FF7002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98C24058230F89B200FF7002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98C2405A230F89B200FF7002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFF1261861A7944CC3EE04B4 /* Pods-Cenna(v5.5).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62Y983JG4J;
+				INFOPLIST_FILE = "Cenna(v5.5)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "avi.Cenna-v5-5-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98C2405B230F89B200FF7002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 390496E4A1DDB15DFC7BEFCF /* Pods-Cenna(v5.5).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62Y983JG4J;
+				INFOPLIST_FILE = "Cenna(v5.5)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "avi.Cenna-v5-5-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98C24042230F89B100FF7002 /* Build configuration list for PBXProject "Cenna(v5.5)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98C24057230F89B200FF7002 /* Debug */,
+				98C24058230F89B200FF7002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98C24059230F89B200FF7002 /* Build configuration list for PBXNativeTarget "Cenna(v5.5)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98C2405A230F89B200FF7002 /* Debug */,
+				98C2405B230F89B200FF7002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98C2403F230F89B100FF7002 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_Cenna_v5_5_ {
+  umbrella header "Pods-Cenna(v5.5)-umbrella.h"
+
+  export *
+  module * { export * }
+}
